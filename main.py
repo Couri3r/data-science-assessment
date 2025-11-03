@@ -82,4 +82,7 @@ if result == expected_result:
 else:
     print("Test failed ❌")
 
+conn.close()
+
+
 os.remove("investment.db")
